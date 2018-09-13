@@ -8,4 +8,4 @@ RUN tar -xf wkhtmltopdf.tar.xz && \
 
 RUN go get -u github.com/golang/dep/cmd/dep
 RUN go get -u github.com/go-playground/overalls
-
+RUN go get -u github.com/gobuffalo/packr
